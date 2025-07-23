@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.env
+.venv/
+
+# Linter
+.ruff_cache/
+
+# Logs
+logs/
+
+# Testing
+.pytest_cache/
