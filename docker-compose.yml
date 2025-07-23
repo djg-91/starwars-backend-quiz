@@ -1,0 +1,17 @@
+services:
+  api:
+    build:
+      target: api
+    env_file:
+      - .env
+    ports:
+      - "6969:8000"
+    command: uv run uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+
+  cli:
+    build:
+      target: cli
+    env_file:
+      - .env
+    stdin_open: true
+    tty: true
