@@ -1,8 +1,6 @@
-from typing import Any
-
 from fastapi import APIRouter, Query
 
-from api.models.planet import Planet, PaginatedPlanets
+from api.models.planet import PaginatedPlanets, Planet
 from api.utils.pagination import get_filtered_paginated_data
 
 router = APIRouter()

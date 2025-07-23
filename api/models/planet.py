@@ -29,28 +29,28 @@ class PaginatedPlanets(BaseModel):
 
     model_config = ConfigDict(
         json_schema_extra={
-            "example": {
-                "count": 59,
-                "page": 1,
-                "results_count": 1,
-                "results": [
+            'example': {
+                'count': 59,
+                'page': 1,
+                'results_count': 1,
+                'results': [
                     {
-                        "name": "Dantooine",
-                        "rotation_period": 25,
-                        "orbital_period": 378,
-                        "diameter": 9830,
-                        "climate": "temperate",
-                        "gravity": "1 standard",
-                        "terrain": "oceans savannas mountains grasslands",
-                        "surface_water": None,
-                        "population": 1000,
-                        "residents": [],
-                        "films": [],
-                        "created": "2014-12-10T17:23:29.896000Z",
-                        "edited": "2014-12-20T20:58:18.461000Z",
-                        "url": "https://swapi.info/api/planets/25"
+                        'name': 'Dantooine',
+                        'rotation_period': 25,
+                        'orbital_period': 378,
+                        'diameter': 9830,
+                        'climate': 'temperate',
+                        'gravity': '1 standard',
+                        'terrain': 'oceans savannas mountains grasslands',
+                        'surface_water': None,
+                        'population': 1000,
+                        'residents': [],
+                        'films': [],
+                        'created': '2014-12-10T17:23:29.896000Z',
+                        'edited': '2014-12-20T20:58:18.461000Z',
+                        'url': 'https://swapi.info/api/planets/25',
                     }
-                ]
+                ],
             }
         }
     )

@@ -1,8 +1,6 @@
-from typing import Any
-
 from fastapi import APIRouter, Query
 
-from api.models.person import Person, PaginatedPeople
+from api.models.person import PaginatedPeople, Person
 from api.utils.pagination import get_filtered_paginated_data
 
 router = APIRouter()
